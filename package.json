@@ -2,30 +2,12 @@
   "name": "garitacenter",
   "version": "1.0.0",
   "description": "OpenShift Sample Application",
-  "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
-  ],
-  "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
-  },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openshift/origin-server"
-  },
+  "private": true,
+  "main": "start.js",
   "scripts": {
-    "start": "node server",
+    "start": "node start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "git push openshift HEAD:master"
-  },
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
   },
   "dependencies": {
     "express": "~3.4.4",
@@ -35,5 +17,6 @@
   "devDependencies": {},
   "bundleDependencies": [],
   "private": true,
-  "main": "server.js"
+  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
+  "license": "ISC"
 }
