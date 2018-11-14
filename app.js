@@ -1,5 +1,4 @@
 const http         = require('http'),
-      fs           = require('fs'),
       env          = process.env;
 const request = require('request');
 
